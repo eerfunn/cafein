@@ -1,0 +1,148 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBAR STYLES */
+.nav-item > a {
+  width: 120px;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  opacity: 70%;
+}
+
+.nav-item > a:hover {
+  opacity: 100%;
+  color: #ffffff;
+}
+
+.active > a {
+  opacity: 100%;
+  border-bottom: 4px solid #efcebf;
+}
+
+/* FOOTER STYLES */
+footer {
+  background-color: #849f6a;
+  height: 400px;
+  color: #ffffff;
+}
+
+footer .form-control {
+  border-radius: 0;
+}
+
+footer .form-control::placeholder {
+  color: #c4c4c4;
+}
+
+footer .btn {
+  background: #efcebf;
+  color: #ffffff;
+  border: 0;
+  border-radius: 0;
+}
+
+/* HOMEPAGE STYLES */
+.welcome-cafein {
+  margin-top: 175px;
+  height: calc(100vh - 175px);
+}
+
+.welcome-cafein > section {
+  background-image: url(/images/welcomebg.jpg);
+  width: 100%;
+  height: 100%;
+}
+
+/* PRODUCT STYLES */
+.product-card {
+  margin-bottom: 2rem;
+}
+
+.cafein-popular-product .description {
+  background: #849f6a61;
+  margin-top: 1rem;
+  padding: 1rem;
+  color: #000000;
+  height: 150px;
+}
+
+.cafein-popular-product .title,
+.price {
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  margin: 0.5rem 0;
+}
+
+.price {
+  margin: 0;
+  font-weight: 400;
+}
+
+.cafein-popular-product a {
+  text-decoration: none;
+}
+
+.cafein-popular-product .component-popular {
+  padding: 2rem 0;
+  background: #f4f4f4;
+  /* padding: 2rem; */
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cafein-popular-product .component-popular:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.cafein-popular-product .component-popular .popular-text {
+  font-size: 1.25rem;
+  text-align: center;
+  color: #849f6a;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.cafein-popular-product .component-popular .product-rating {
+  font-weight: 700;
+  text-align: center;
+  color: darkgoldenrod;
+}
+
+.category {
+  text-decoration: none;
+  color: #efcebf;
+  cursor: pointer;
+}
+
+.category h2 {
+  margin-bottom: 1.5rem;
+}
+
+.category:hover,
+.categories .active {
+  color: #849f6a;
+}
+
+/* ABOUT US STYLES */
+.about-section,
+.location-section {
+  padding: 4rem 0;
+}
+
+.about-card {
+  filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.1));
+  border: 0;
+}
+
+.about-title,
+.location-title {
+  color: #5c3f2a;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
